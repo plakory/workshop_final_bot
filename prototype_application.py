@@ -56,7 +56,7 @@ def form_settings():
 	question_3 = st.text_input("Question 3:", value=st.session_state.question_3)
 	question_4 = st.text_input("Question 4:", value=st.session_state.question_4)
 	question_5 = st.text_input("Question 5:", value=st.session_state.question_5)
-	if st.button("Update Questions"):
+	if st.button("Submit Questions"):
 		st.session_state.form_title = title
 		st.session_state.question_1 = question_1
 		st.session_state.question_2 = question_2
